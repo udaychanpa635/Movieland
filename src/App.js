@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import './App.css';
 import searchIcon from './search.svg';
 
-const API_URL = 'http://www.omdbapi.com/?apikey=c716f016';
+const API_URL = 'https://www.omdbapi.com/?apikey=c716f016';
 
 const App = () => {
   const [searchTerm, setSearchTerm] = useState('Spiderman');
